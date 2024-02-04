@@ -1,0 +1,183 @@
+body{
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif, Arial;
+}
+img{
+    width: 100px;
+    margin: 8px;
+    padding: 6px;
+}
+h2{
+    margin: 18px 34px;
+    padding: 6px;
+    color: red;
+}
+body{
+    margin: 5px;
+    padding: 5px;
+    font-family: sans-serif, Arial;
+    justify-content: center;
+    align-items: center;
+  }
+  #flex-box{
+    display: inline-block;
+    margin: 30px 30px 0 60px;
+  }
+  input{
+      width: 300%;
+      height: 10px;
+      background: white;
+      padding: 10px;
+      outline: none;
+      border: 0;
+      margin: -25px 120%;
+      padding: -5px;
+      border: 1px solid rgb(188, 192, 194);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  input:active{
+    box-shadow: 0 0 2px;
+    color: var(--clr);
+  }
+  .align-left{
+    text-align: left;
+  }
+  label{
+    margin: 27px 4%;
+    padding: 5px;
+    font-size: 18px;
+  }
+  hr{
+    margin-bottom: 4%;
+  }
+  #button{
+    text-align: right;
+    margin-top: 9px;
+  }
+  a{
+    position: relative;
+    margin: 10px 450px;
+    padding: 10px;
+    background: rgb(22, 133, 224);
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+}
+a:hover{
+    box-shadow: 0 0 35px;
+    background: var(--clr);
+}
+#srt{
+margin: 25px 4%;
+display: inline-block;
+}
+.tab{
+width: 130%;
+height: 10px;
+background: white;
+padding: 10px;
+outline: none;
+border: 0;
+margin: -10px 35%;
+padding: -5px;
+border: 1px solid rgb(188, 192, 194);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tab:active{
+box-shadow: 0 0 2px;
+color:var(--clr)
+}
+.tab-b{
+width: 135%;
+height: 10px;
+background: white;
+padding: 10px;
+outline: none;
+border: 0;
+margin: 0 5%;
+padding: -5px;
+border: 1px solid rgb(188, 192, 194);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tab-b:active{
+    box-shadow: 0 0 2px;
+    color: var(--clr);
+}
+.td{
+text-align: right;
+}
+ul, li, .socc-sa{
+list-style: none;
+display: flex;
+text-decoration: none;
+font-size: 16px;
+justify-content: flex-end;
+align-items: flex-start;
+margin: 0;
+padding: 0;
+}
+.mov{
+text-align: center;
+margin: 8px 110% 0 160px;
+display: flex;
+justify-content: center;
+}
+
+
+/*
+these are incorrect style but are still in use...
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.nu2{
+    text-align: center;
+    margin: 20px;
+}
+ .nu3{
+    margin: 10px 20px 2px 400px;
+    text-align: right;
+    color: rgb(124, 124, 124);
+    font-size: 13px;
+}
+.left-top{
+    margin-top: 55px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    text-align: left;
+    font-size: large;
+}
+.right-top, b{
+    margin-top: 2px;
+    margin-right: 15.5%;
+    margin-bottom: 1%;
+    text-align: right;
+    color: rgb(124, 124, 124);
+    font-size: 13px;
+}
+ .middle{
+    text-align: center;
+    margin: 20px;
+}
+ .right{
+    margin: 10px 250px 2px 400px;
+    text-align: right;
+    color: rgb(124, 124, 124);
+    font-size: 13px;
+}
+*/
+
+
