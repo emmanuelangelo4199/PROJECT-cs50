@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Google Image</title>
+        <style>
+            /* body{
+    display:contents;
+    box-sizing:border-box;
+    justify-content: center;
+    min-height: 100vh;
+}*/
+            *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .nav {
+                margin: 60px;
+                display: flex;
+                justify-content: center;
+            }
+            .search {
+                background: white;
+                color: white;
+                width: 530px;
+                height: 45px;
+                border-radius: 500px;
+                display: flex;
+                align-items: center;
+                padding: 0 15px;
+                border: 1px solid rgb(148, 147, 147);
+            }
+             img{
+                width: 20px;
+            }
+            .i-ic-baseline-keyboard-voice{
+                width: 26px;
+                margin: 5px -100px;
+                cursor: pointer;
+            }
+            .uno-ppse{
+                width: 26px;
+                cursor: pointer;
+                margin: 5px 120px;
+            }
+             input{
+                width: 140%;
+                background: transparent;
+                padding: 10px; 
+                outline: none;
+                border: 0;
+            }
+            h1, .uno-ppy {
+                margin: -30px;
+                padding: -40px;
+                padding-top: 50px;
+                text-align: center;
+            }
+            .uno-ppy{
+                width: 25%;
+            }
+            .right-top {
+                list-style: none;
+                display: flex;
+                margin: 5px;
+                padding: 5px;
+                justify-content: flex-end;
+                align-items: flex-start;
+            }
+            ul, li, a{
+                list-style: none;
+                display: flex;
+                margin: 5px;
+                padding: 5px;
+                text-wrap: balance;
+                text-decoration: none;
+                font-size: 16px;
+                color: blue;
+            }
+            a{
+                background: rgb(22, 133, 224);
+                color: antiquewhite;
+                text-decoration: none;
+                font-size: 16px;
+                border-radius: 2px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                transition: 0.5s;
+            }
+            a:hover{
+                box-shadow: 0 0 35px;
+                background: var(--clr);
+            }
+            .goo-luc{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               }
+               .sea {
+                margin: 5px 10px;
+                padding: 5px;
+                cursor: pointer;
+                background-color: rgb(167, 163, 163);
+                color: white;
+               }
+               .sea:hover{
+                box-shadow: 0 0 35px;
+                background: var(--clr);
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="right-top">
+            <ul>
+                <li><a href="index.html" rel="google-search" class="socc-sa"> Google Search</a></li>
+            </ul>
+        </div>
+         <h1><img src="image/Google_images.png" class="uno-ppy"></h1>
+
+        <div class="nav">
+            <form class="search" action="https://www.google.com/imghp">
+            <img src="image/search.png">
+            <input type="text" name="q">
+            </form>
+                <svg xmlns="http://www.w3.org/2000/svg" class="i-ic-baseline-keyboard-voice" width="32" height="32" 
+                 viewBox="0 0 24 24"><path fill="#878787" 
+                    d="M7 24h2v-2H7zm5-11c1.66 0 2.99-1.34 2.99-3L15 4c0-1.66-1.34-3-3-3S9 2.34 9 4v6c0 1.66 1.34 3 3 
+                    3m-1 11h2v-2h-2zm4 0h2v-2h-2zm4-14h-1.7c0 3-2.54 5.1-5.3 5.1S6.7 13 6.7 10H5c0 3.41 2.72 6.23 6 
+                    6.72V20h2v-3.28c3.28-.49 6-3.31 6-6.72"/></svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="uno-ppse" width="32" height="32" viewBox="0 0 24 24"><path fill="#878787" 
+                        d="M18 13v7H4V6h5.02c.05-.71.22-1.38.48-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5zm-1.5 
+                        5h-11l2.75-3.53l1.96 2.36l2.75-3.54zm2.8-9.11c.44-.7.7-1.51.7-2.39C20 4.01 17.99 2 15.5 2S11 4.01 11 
+                        6.5s2.01 4.5 4.49 4.5c.88 0 1.7-.26 
+                        2.39-.7L21 13.42L22.42 12zM15.5 9a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5"/></svg>
+        </div>
+        <div class="goo-luc">
+            <a href="https://www.google.com/imghp" class="sea" style="--clr: rgb(185, 182, 182)" >Search</a>
+        </div>
+
+    </body>
+</html>
